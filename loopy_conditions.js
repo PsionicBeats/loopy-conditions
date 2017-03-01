@@ -29,12 +29,16 @@ console.log(greaterNumber());
  * @param  { Number } n
  * @return { String }
  */
+
+var count = 0;
 function stringOfNumbers(n) {
   if (n === 5) {
-    return 
-  }
+    for (var count = 0; count - 1; i >= 0; i--) {
+      
+    };
+  };
 }
-
+console.log(count);
 /**
  * Create a function called 'sumOfArray'.
  * This function will take in a parameter that is an array.
@@ -43,9 +47,12 @@ function stringOfNumbers(n) {
  * @param  { array } arr
  * @return { Number }
  */
+
+var numbers = [1, 2, 3, 4, 5, 6, 7];
 function sumOfArray(argument) {
   // body...
 }
+
 
 /**
  * Create a function called 'getEvens'.
@@ -54,7 +61,9 @@ function sumOfArray(argument) {
  * @param  { array } arr
  * @return { array }
  */
-
+function getEvens(argument) {
+  // body...
+}
 
 /**
  * Create a function called 'getOdds'.
@@ -64,15 +73,7 @@ function sumOfArray(argument) {
  * @return { array }
  */
 
-var numbers = [
-  1
-  2
-  3
-  4
-  5
-  6
-  7
-];
+
 
 function getOdds(argument) {
   if 
